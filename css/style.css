@@ -1,0 +1,49 @@
+/*Matriz CSS do Projeto*/
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url("../fonts/Poppins-Medium.otf");
+}
+@font-face {
+  font-family: "PoppinsRegular";
+  src: url("../fonts/Poppins-Regular.otf");
+}
+:root {
+  --color-background: #050607;
+  --color-text: #4f4f4f;
+  --color-text-out: #909008;
+  --color-separate: #cccccc;
+  --color-primary: #fe0c6a;
+  --color-rosa: #ffc4d8;
+  --color-secondary: #fbf1e3;
+  --color-star: #ffbf00;
+  --color-black: #212121;
+  --color-black-full:#000;
+  --color-white: #ffffff;
+  --color-red: #e74c3c;
+  --color-green: #2ecc71;
+}
+
+/*
+   html, body {
+       font-family: 'PoppinsRegula', 'Rubik', sans-serif;
+       background-color: var(--color-rosa);
+       color: var(--color-text);
+
+   }
+
+   .hidden {
+       display: none!important;
+   }
+
+   */
+/* Topo do Projeto*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: var(--color-background);
+}/*# sourceMappingURL=style.css.map */
