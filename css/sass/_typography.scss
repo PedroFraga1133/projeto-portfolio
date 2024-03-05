@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, h6, p, a{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Oxanium', sans-serif;
     color: var(--color-white-full);
     font-weight: 400;
     
@@ -48,7 +48,7 @@ a {
 
 
 h1 {
-    font-size: 96px;
+    font-size: 98px;
     line-height: 100%;
     margin: 40px 0px;
 }
@@ -74,7 +74,7 @@ h3 {
 }
 
 h4 {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 120%;
 }
 
@@ -90,26 +90,50 @@ h6 {
 
 .mask1 {
     
-    background:linear-gradient(225deg, #7a2731 0%, #5271ff 100%);
+    background:linear-gradient(225deg, #ffffff 0%, #b9bebf 100%); 
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    min-width: 6.7em;
+    font-size: 100px
 };
 
 .mask2 {
     
-    background:linear-gradient(225deg, #5271ff 0%, #7a2731 100%);
+    background:linear-gradient(225deg, #233dff 0%, #5cb6f9 100%);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 };
 
-.text-center {
-    text-align: center;
+.hello {
+    aline-height: 150%;
+    width: 90px;
+    transform: translate(-20px, 40px); 
 }
 
-.text-right {
-    text-align: right;
+.ui {
+    width: 500px;
+    transform: translate(80px, 10px);
+}
+
+.text-complement {
+    padding: 20px;
+    min-width: 16.4cm;
+    transform: translate( 530px, -200px);
+    text-align: left;
+}
+
+.my-loc {
+    
+    
+    min-width: 16.4cm;
+    transform: translate( -90px, -30px);
+}
+
+.my-loc-icon {
+    transform: translate( -90px, -50px);
 }
 
 .square{
@@ -138,7 +162,7 @@ h6 {
 
         transform: translate(-5%, -20%) rotate(45deg);
 
-        background:linear-gradient(225deg, #7a2731 0%, #560d81 100%);
+        background:linear-gradient(225deg, #050A30 0%, #233dff 100%);
 
         border-radius: 4px;
         transition: .6s ease;

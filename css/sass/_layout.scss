@@ -58,18 +58,23 @@
 
     margin: 40px 0px;
 
+    margin-bottom: 300px;
     
 }
+
+
 
 .container-item:nth-child(2){
     flex-grow: 1;
 
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    
+    margin-left: -300px;
 
-    margin: 40px 0px;
+}
 
-    img {
-        max-width: 350px;
-    }
+
+.menu-logo img {
+    width: 140px;
 }
